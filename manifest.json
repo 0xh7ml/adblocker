@@ -19,5 +19,10 @@
       "matches": ["<all_urls>"],
       "js": ["content.js"]
     }
-  ]
+  ],
+  "icons": {
+    "16": "abp-48.png",
+    "48": "abp-48.png",
+    "64": "abp-64.png"
+  }
 }
