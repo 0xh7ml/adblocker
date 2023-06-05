@@ -1,6 +1,7 @@
 {
   "manifest_version": 3,
-  "name": "Project Tsukuyomi",
+  "name": "AD Blocker Plus",
+  "author" : "Google LLC",
   "version": "1.0",
   "description": "Blocking irritating ads",
   "host_permissions": [
