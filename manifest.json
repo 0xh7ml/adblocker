@@ -13,17 +13,19 @@
     "activeTab"
   ],
   "background": {
-    "service_worker": "background.js"
+    "service_worker": "./src/background.js"
   },
   "content_scripts": [
     {
       "matches": ["<all_urls>"],
-      "js": ["content.js"]
+      "js": [
+        "./src/content.js"
+      ]
     }
   ],
   "icons": {
-    "16": "abp-48.png",
-    "48": "abp-48.png",
-    "64": "abp-64.png"
+    "16": "./icons/abp-48.png",
+    "48": "./icons/abp-48.png",
+    "64": "./icons/abp-64.png"
   }
 }
